@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Server Demo</title>
+</head>
+<body>
+
+<h2>Quản lý Posts</h2>
+
+<input id="title" placeholder="Tiêu đề post">
+<input id="views" type="number" placeholder="Views">
+<button onclick="addPost()">Thêm post</button>
+
+<ul id="postList"></ul>
+
+<hr>
+
+<h2>Quản lý Comments</h2>
+
+<input id="postId" placeholder="Post ID">
+<input id="commentText" placeholder="Nội dung comment">
+<button onclick="addComment()">Thêm comment</button>
+
+<ul id="commentList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
